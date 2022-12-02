@@ -56,12 +56,14 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <Image
-            alt=""
-            className="object-contain bg-gray-50 dark:bg-slate-50 w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
-            src={web1}
-            layout="responsive"
-          />
+          <a href="https://github.com/nyohen/react-todo-app">
+            <Image
+              alt=""
+              className="object-contain bg-gray-50 dark:bg-slate-50 w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
+              src={web1}
+              layout="responsive"
+            />
+          </a>
         </div>
       </div>
     </section>
